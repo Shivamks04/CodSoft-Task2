@@ -1,0 +1,133 @@
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #0f1923;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+.navbar {
+    background: #ff4655;
+    padding: 1rem 0;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.nav-links a:hover {
+    color: #ffbbc0;
+}
+
+.hero {
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.overview {
+    padding: 50px 20px;
+    background: #1a2736;
+    text-align: center;
+}
+
+.overview-image{
+    height: 150px;
+    width: 150px;
+}
+
+.categories {
+    padding: 50px 20px;
+    background: #15202b;
+    text-align: center;
+}
+
+.category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.category-box {
+    background: #202d3a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.Duelist_Image, .Sentinel_Image, .Initiator_Image, .Controller_Image{
+    height: 100px;
+    width: 100px;
+}
+
+.agents {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.agents-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.agent-card {
+    background: #1f2b37;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.Jett_Image, .Killjoy_Image, .Sova_Image, .Viper_Image{
+    width: 100%;
+    max-width: 512px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.footer {
+    background: #0e1621;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 30px;
+    color: #ffffff;
+}
